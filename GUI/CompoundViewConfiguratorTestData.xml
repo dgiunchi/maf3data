@@ -1,0 +1,10 @@
+<compoundView>
+	<splitter orientation="orizontal" sizes="100, 100" separatorThikness="1" enableSeparator="1">
+		<view classtype="testViewForCompound" objectName="View1" parameterFlag="0">
+			<visualpipe classtype="testVisualPipeForCompound" datatype="vtkPolyData"></visualpipe>
+		</view>
+		<view classtype="testViewForCompound" objectName="View2" parameterFlag="1">
+			<visualpipe classtype="testVisualPipeForCompound" datatype="vtkPolyData" normalY="1" normalZ="0"></visualpipe>
+		</view>
+	</splitter>
+</compoundView>
